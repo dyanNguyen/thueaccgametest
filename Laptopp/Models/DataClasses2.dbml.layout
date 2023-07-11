@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.25, 8.5" name="DataClasses2">
+  <DataContextMoniker Name="/DataClasses2DataContext" />
+  <nestedChildShapes>
+    <classShape Id="227caee3-62ea-4855-bf77-41a4bb8b031c" absoluteBounds="0.75, 5.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/DataClasses2DataContext/ADMIN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5a800a99-ead6-4c36-afe2-0376d4327d5b" absoluteBounds="0.765, 6.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="724be140-493e-491d-bdca-6d6520c8883e" absoluteBounds="3.5, 2, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DataClasses2DataContext/Game" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4ff977ee-0d2d-4c71-8955-3527c9fc14d3" absoluteBounds="3.515, 2.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="360bc51e-e655-4c96-9a1a-a7aef8900e89" absoluteBounds="6.25, 5.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DataClasses2DataContext/NguoiDung" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3490da4f-41cd-476f-82aa-9e47d7f65de9" absoluteBounds="6.265, 6.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="21873ff5-7359-44b2-9690-85248813401c" absoluteBounds="6.25, 1.25, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/DataClasses2DataContext/OrderDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cddc744d-11cb-445f-ac22-0e36e92f063b" absoluteBounds="6.265, 1.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="889ae8b9-ce87-4b29-bb4a-dee488d00d34" absoluteBounds="6.25, 3.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClasses2DataContext/QLTaiKhoanChoThue" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8b180166-b0db-4e6b-bf63-21193f78e1ec" absoluteBounds="6.265, 3.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="23491b77-6929-48a7-8ea5-b40190ad42e5" absoluteBounds="9, 1, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/DataClasses2DataContext/ThanhToan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c1805326-5c07-447d-9da6-c2d04d5ebdae" absoluteBounds="9.015, 1.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0e7dccc5-7470-4ee7-bf8c-27f6d2e0a97e" absoluteBounds="0.75, 2.5, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DataClasses2DataContext/TheLoaiGame" />
+      <nestedChildShapes>
+        <elementListCompartment Id="326bd4c8-2c9b-46c2-af21-5e2c368b8ea7" absoluteBounds="0.765, 2.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 2.31814697265625); (6.25 : 2.31814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses2DataContext/Game/Game_OrderDetail" />
+      <nodes>
+        <classShapeMoniker Id="724be140-493e-491d-bdca-6d6520c8883e" />
+        <classShapeMoniker Id="21873ff5-7359-44b2-9690-85248813401c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 3.76524983723958); (6.25 : 3.76524983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses2DataContext/Game/Game_QLTaiKhoanChoThue" />
+      <nodes>
+        <classShapeMoniker Id="724be140-493e-491d-bdca-6d6520c8883e" />
+        <classShapeMoniker Id="889ae8b9-ce87-4b29-bb4a-dee488d00d34" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 1.94314697265625); (9 : 1.94314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses2DataContext/OrderDetail/OrderDetail_ThanhToan" />
+      <nodes>
+        <classShapeMoniker Id="21873ff5-7359-44b2-9690-85248813401c" />
+        <classShapeMoniker Id="23491b77-6929-48a7-8ea5-b40190ad42e5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 6.95274983723958); (10 : 6.95274983723958); (10 : 2.77089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses2DataContext/NguoiDung/NguoiDung_ThanhToan" />
+      <nodes>
+        <classShapeMoniker Id="360bc51e-e655-4c96-9a1a-a7aef8900e89" />
+        <classShapeMoniker Id="23491b77-6929-48a7-8ea5-b40190ad42e5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.09699625651042); (3.5 : 3.09699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses2DataContext/TheLoaiGame/TheLoaiGame_Game" />
+      <nodes>
+        <classShapeMoniker Id="0e7dccc5-7470-4ee7-bf8c-27f6d2e0a97e" />
+        <classShapeMoniker Id="724be140-493e-491d-bdca-6d6520c8883e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
